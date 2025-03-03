@@ -68,9 +68,7 @@ A  list of  tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical 
 ---
 
 ## 📚 [Resources & Writeups](#resources--writeups)
-- **[My Blog - VulnVault](https://vulnvault.info)** - Bug bounty writeups & security research.
-- **[HackerOne Reports](https://hackerone.com/reports)** - Publicly disclosed bug bounty reports.
-- **[Bugcrowd's LevelUp](https://www.bugcrowd.com/resources/levelup/)** - Webinars and learning resources for bug bounty hunters.
+- **[My Blog - Medium](https://myselfakash20.medium.com)** - Bug bounty writeups & security research.
 
 ---
 
@@ -78,10 +76,8 @@ A  list of  tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical 
 - **Twitter (X):** [@myselfakash20](https://x.com/myselfakash20)
 - **GitHub:** [myselfakash20](https://github.com/myselfakash20)
 - **LinkedIn:** [Akash Ghosh](https://www.linkedin.com/in/akash-ghosh-145bb61b5/)
-- **Bugcrowd:** [myselfakash20](https://bugcrowd.com/myselfakash20)
 - **Medium:** [@myselfakash20](https://medium.com/@myselfakash20)
-- **Reddit:** [u/Devil0001910](https://www.reddit.com/user/Devil0001910)
-- **Website:** [TechWithMe](https://techwithme.godaddysites.com)
+
 
 ⭐ *If you find this repo useful, don’t forget to **star** it!* ⭐
 
