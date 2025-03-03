@@ -1,8 +1,8 @@
 # bugbounty-toolkit
 
-![Bug Bounty Banner](https://github.com/myselfakash20/myselfakash20/blob/main/Akash%20Ghosh%20%20%40myselfakash20.gif)
 
-A curated list of awesome tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical Hacking**, and **Cybersecurity Research**. 🚀
+
+A list of tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical Hacking**, and **Cybersecurity Research**. 🚀
 
 ## 🌟 Table of Contents
 - [Reconnaissance](#reconnaissance)
@@ -18,10 +18,16 @@ A curated list of awesome tools, scripts, and resources for **Bug Bounty Hunting
 ---
 
 ## 🕵️ Reconnaissance
-- **[Amass](https://github.com/OWASP/Amass)** - Advanced asset discovery tool.
-- **[Subfinder](https://github.com/projectdiscovery/subfinder)** - Fast subdomain enumeration tool.
-- **[Assetfinder](https://github.com/tomnomnom/assetfinder)** - Find related domains and subdomains.
-- **[httpx](https://github.com/projectdiscovery/httpx)** - Fast and multi-purpose HTTP toolkit.
+- **[Sublist3r](https://github.com/aboul3la/Sublist3r)** - Fast subdomain discovery tool.
+- **[Amass](https://github.com/OWASP/Amass)** - In-depth Attack Surface Mapping and Asset Discovery.
+- **[Findomain](https://github.com/Findomain/Findomain)** - High-speed subdomain enumerator.
+- **[Sudomy](https://github.com/screetsec/Sudomy)** - Automated subdomain enumeration and analysis.
+- **[Chaos-Client](https://github.com/projectdiscovery/chaos-client)** - Client to fetch DNS records from ProjectDiscovery Chaos API.
+- **[Shuffledns](https://github.com/projectdiscovery/shuffledns)** - Wrapper around massdns for fast subdomain resolution.
+- **[Puredns](https://github.com/d3mondev/puredns)** - Fast and reliable domain resolver with wildcard filtering.
+- **[Censys-Subdomain-Finder](https://github.com/appsecco/censys-subdomain-finder)** - Uses certificate transparency logs to find subdomains.
+- **[Turbolist3r](https://github.com/fleetcaptain/Turbolist3r)** - Subdomain enumeration tool with analysis features.
+- **[AltDNS](https://github.com/infosec-au/altdns)** - Generates variations of subdomains for better discovery.
 
 ---
 
