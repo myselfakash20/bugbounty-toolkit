@@ -6,7 +6,6 @@ A list of tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical Ha
 
 ## 🌟 Table of Contents
 - [Reconnaissance](#reconnaissance)
-- [Subdomain Enumeration](#subdomain-enumeration)
 - [Exploitation](#exploitation)
 - [Automation](#automation)
 - [OSINT & Information Gathering](#osint--information-gathering)
@@ -20,14 +19,9 @@ A list of tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical Ha
 ---
 
 ## 🕵️ [Reconnaissance](#reconnaissance)
-- **[Amass](https://github.com/OWASP/Amass)** - Advanced asset discovery tool.
 - **[Subfinder](https://github.com/projectdiscovery/subfinder)** - Fast subdomain enumeration tool.
 - **[Assetfinder](https://github.com/tomnomnom/assetfinder)** - Find related domains and subdomains.
 - **[httpx](https://github.com/projectdiscovery/httpx)** - Fast and multi-purpose HTTP toolkit.
-
----
-
-## 🌍 [Subdomain Enumeration](#subdomain-enumeration)
 - **[Sublist3r](https://github.com/aboul3la/Sublist3r)** - Fast subdomain discovery tool.
 - **[Amass](https://github.com/OWASP/Amass)** - In-depth Attack Surface Mapping and Asset Discovery.
 - **[Findomain](https://github.com/Findomain/Findomain)** - High-speed subdomain enumerator.
