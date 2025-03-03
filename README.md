@@ -1,11 +1,11 @@
 # bugbounty-toolkit
 
-
-
-A list of tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical Hacking**, and **Cybersecurity Research**. 🚀
+A  list of  tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical Hacking**, and **Cybersecurity Research**. 🚀
 
 ## 🌟 Table of Contents
 - [Reconnaissance](#reconnaissance)
+- [Subdomain Enumeration](#subdomain-enumeration)
+- [JavaScript Enumeration & Analysis](#javascript-enumeration--analysis)
 - [Exploitation](#exploitation)
 - [Automation](#automation)
 - [OSINT & Information Gathering](#osint--information-gathering)
@@ -19,19 +19,32 @@ A list of tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical Ha
 ---
 
 ## 🕵️ [Reconnaissance](#reconnaissance)
+- **[Amass](https://github.com/OWASP/Amass)** - Advanced asset discovery tool.
 - **[Subfinder](https://github.com/projectdiscovery/subfinder)** - Fast subdomain enumeration tool.
 - **[Assetfinder](https://github.com/tomnomnom/assetfinder)** - Find related domains and subdomains.
 - **[httpx](https://github.com/projectdiscovery/httpx)** - Fast and multi-purpose HTTP toolkit.
+
+---
+
+## 🌍 [Subdomain Enumeration](#subdomain-enumeration)
 - **[Sublist3r](https://github.com/aboul3la/Sublist3r)** - Fast subdomain discovery tool.
-- **[Amass](https://github.com/OWASP/Amass)** - In-depth Attack Surface Mapping and Asset Discovery.
 - **[Findomain](https://github.com/Findomain/Findomain)** - High-speed subdomain enumerator.
 - **[Sudomy](https://github.com/screetsec/Sudomy)** - Automated subdomain enumeration and analysis.
 - **[Chaos-Client](https://github.com/projectdiscovery/chaos-client)** - Client to fetch DNS records from ProjectDiscovery Chaos API.
 - **[Shuffledns](https://github.com/projectdiscovery/shuffledns)** - Wrapper around massdns for fast subdomain resolution.
 - **[Puredns](https://github.com/d3mondev/puredns)** - Fast and reliable domain resolver with wildcard filtering.
-- **[Censys-Subdomain-Finder](https://github.com/appsecco/censys-subdomain-finder)** - Uses certificate transparency logs to find subdomains.
-- **[Turbolist3r](https://github.com/fleetcaptain/Turbolist3r)** - Subdomain enumeration tool with analysis features.
-- **[AltDNS](https://github.com/infosec-au/altdns)** - Generates variations of subdomains for better discovery.
+
+---
+
+## 📝 [JavaScript Enumeration & Analysis](#javascript-enumeration--analysis)
+- **[LinkFinder](https://github.com/GerbenJavado/LinkFinder)** - Extract URLs and endpoints from JavaScript files.
+- **[SecretFinder](https://github.com/m4ll0k/SecretFinder)** - Find sensitive information in JavaScript files (API keys, tokens, etc.).
+- **[JSParser](https://github.com/nahamsec/JSParser)** - Extract endpoints from JavaScript files.
+- **[JScan](https://github.com/0x48piraj/JScan)** - JavaScript static analysis tool for finding vulnerabilities.
+- **[GetJS](https://github.com/003random/getJS)** - Extract all JavaScript files from a website.
+- **[Subjs](https://github.com/lc/subjs)** - Fetch JavaScript files quickly from a domain.
+- **[GrapJs](https://github.com/hahwul/GrabJS)** - Extract JavaScript files and analyze sensitive information.
+- **[Retire.js](https://github.com/RetireJS/retire.js)** - Identify outdated JavaScript libraries with known vulnerabilities.
 
 ---
 
@@ -44,42 +57,13 @@ A list of tools, scripts, and resources for **Bug Bounty Hunting**, **Ethical Ha
 ---
 
 ## 🤖 [Automation](#automation)
-- **[Bash Scripts for Bug Bounty](https://github.com/EdOverflow/bugbounty-cheatsheet)** - Collection of useful bug bounty scripts.
-- **[bbot](https://github.com/blacklanternsecurity/bbot)** - OSINT & recon automation framework.
-- **[dalfox](https://github.com/hahwul/dalfox)** - Fast and powerful XSS scanner.
-
----
-
-## 🔍 [OSINT & Information Gathering](#osint--information-gathering)
-- **[theHarvester](https://github.com/laramies/theHarvester)** - OSINT tool for gathering emails, subdomains, and more.
-- **[SpiderFoot](https://github.com/smicallef/spiderfoot)** - Automated OSINT framework.
-- **[GHunt](https://github.com/mxrch/GHunt)** - OSINT tool to analyze Google accounts.
-
----
-
-## ☁️ [Cloud Security](#cloud-security)
-- **[Pacu](https://github.com/RhinoSecurityLabs/pacu)** - AWS exploitation framework.
-- **[ScoutSuite](https://github.com/nccgroup/ScoutSuite)** - Multi-cloud security auditing tool.
-- **[CloudSploit](https://github.com/aquasecurity/cloudsploit)** - Cloud security scanning and misconfiguration detection.
-
----
-
-## 📱 [Mobile Security](#mobile-security)
-- **[MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)** - Mobile Security Framework for Android/iOS.
-- **[Objection](https://github.com/sensepost/objection)** - Runtime Mobile Exploration toolkit.
-- **[Frida](https://github.com/frida/frida)** - Dynamic instrumentation toolkit for iOS & Android.
-
----
-
-## 🔥 [Payload Lists & Wordlists](#payload-lists--wordlists)
-- **[SecLists](https://github.com/danielmiessler/SecLists)** - Collection of useful wordlists for security assessments.
-- **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)** - List of payloads for various vulnerabilities.
-- **[fuzzdb](https://github.com/fuzzdb-project/fuzzdb)** - Wordlists, payloads, and attack patterns.
-
----
-
-## 🤝 [Contributing](#contributing)
-We welcome contributions from the community! Feel free to submit pull requests with your favorite tools and resources.
+- **[BBOT](https://github.com/blacklanternsecurity/bbot)** - OSINT & recon automation framework.
+- **[Meg](https://github.com/tomnomnom/meg)** - Fetch many paths for many hosts in parallel.
+- **[Hakrawler](https://github.com/hakluke/hakrawler)** - Fast web crawler for discovering endpoints.
+- **[Katana](https://github.com/projectdiscovery/katana)** - Modern web crawling framework.
+- **[Arjun](https://github.com/s0md3v/Arjun)** - Identify hidden GET & POST parameters.
+- **[Waymore](https://github.com/xnl-h4ck3r/waymore)** - Advanced Wayback Machine scraper.
+- **[Dalfox](https://github.com/hahwul/dalfox)** - Fast and smart XSS scanner.
 
 ---
 
@@ -101,5 +85,3 @@ We welcome contributions from the community! Feel free to submit pull requests w
 
 ⭐ *If you find this repo useful, don’t forget to **star** it!* ⭐
 
-
-⭐ *If you find this repo useful, don’t forget to **star** it!* ⭐
